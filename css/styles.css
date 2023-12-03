@@ -73,6 +73,10 @@ a:active {
   color: #404bbf;
 }
 
+.nav-item:focus {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -89,6 +93,10 @@ a:active {
 }
 
 .address-item:active {
+  color: #404bbf;
+}
+
+.address-item:focus {
   color: #404bbf;
 }
 
@@ -185,7 +193,7 @@ a:active {
   letter-spacing: 0.32px;
 }
 
-.h3-portfolio {
+.item-portfolio {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
