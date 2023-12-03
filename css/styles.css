@@ -1,12 +1,11 @@
 .body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
 }
 
 a {
   text-decoration: none;
-  color: #2e2f42;
 }
 
 a:hover {
@@ -31,10 +30,10 @@ a:active {
 
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.1667em;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   display: inline-flex;
@@ -58,11 +57,39 @@ a:active {
   letter-spacing: 0.32px;
 }
 
-.header-contacts {
+.nav-item {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.nav-item:hover {
+  color: #404bbf;
+}
+
+.nav-item:active {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-item {
   color: var#434455;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+}
+
+.address-item:hover {
+  color: #404bbf;
+}
+
+.address-item:active {
+  color: #404bbf;
 }
 
 .hero {
@@ -77,7 +104,7 @@ a:active {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07143em;
+  line-height: 1.07em;
   letter-spacing: 1.12px;
 }
 
@@ -90,6 +117,7 @@ a:active {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -101,17 +129,21 @@ a:active {
   background: #404bbf;
 }
 
-.h2-header {
+.hero-btn:focus {
+  background: #404bbf;
+}
+
+.block-header {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11111em;
+  line-height: 1.11em;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
-.h3-features {
+.item-features {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -126,7 +158,17 @@ a:active {
   letter-spacing: 0.32px;
 }
 
-.h3-team {
+.team {
+  background: #f4f4fd;
+}
+
+.team-box {
+  background: #fff;
+  width: 264px;
+  height: 380px;
+}
+
+.item-team {
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
@@ -171,6 +213,7 @@ a:active {
 
 .text-footer {
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
